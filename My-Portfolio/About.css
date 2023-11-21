@@ -1,0 +1,66 @@
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .about{
+        background: linear-gradient(90deg ,#c4c1c55b,rgba(241, 241, 241, 0.993) 28.48% 100%);  
+        padding: 20px 0 20px 0;
+        display: flex;
+        border-radius: 2rem;
+        margin: 2rem 10rem 4.5rem 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about img{
+        border-radius: 2rem;
+        margin: 2rem;
+    }
+    .about .about-myself p{
+        padding: 15px;
+        line-height: 1.5;
+    }
+   .about-myself .first-letter {
+        font-size: 3rem;
+        font-weight:lighter;
+        float: left;
+        margin-right: 0.2rem;
+        line-height: 1;
+    }
+
+    .about .about-myself{
+        border-radius: 2rem;
+        float: right;
+        margin: 2rem 0 0 5rem;
+    }
+
+    footer{
+        margin-top: 5.5rem;
+    }
+    
+    @media screen and (max-width: 768px){
+        .about{
+            flex-direction: column;
+            margin: 2rem 2rem 2rem 2.5rem;
+        }
+        .about img{
+            width: 50%;
+            height: 50%;
+            margin: 2rem 0rem 0rem 6rem;
+        }
+        .about .about-myself{
+            margin: 2rem 0rem 0rem 0rem;
+            padding-left: 2px;
+        }
+        .about h3{
+            float: right;
+            margin: 0rem 0rem 0rem 0rem;
+        }
+    }
+        
